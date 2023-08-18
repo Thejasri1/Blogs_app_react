@@ -1,0 +1,106 @@
+/** @format */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  font-family: serif;
+}
+.accountsContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.userContainer {
+  background-color: beige;
+  padding: 20px;
+  border-radius: 25px;
+}
+.blogSpanText {
+  color: chocolate;
+}
+.accText {
+  color: blue;
+}
+input {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid;
+}
+.authBtn {
+  background-color: chocolate;
+  width: 210px;
+  border: none;
+  padding: 5px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.description {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid;
+}
+.navContainer{
+  display: flex;
+  background-color:#282c34;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+padding-right: 50px;
+}
+.navItems{
+  color: chocolate;
+  font-family:serif;
+}
+.blogOptions{
+ font-family: fantasy !important;
+ color: white;
+ padding: 10px;
+font-weight: bold;
+cursor: pointer;
+}
+.title{
+  font-family: fantasy !important
+}
